@@ -47,7 +47,11 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        title: 'Output Management',
+        hash: true,
+        title: 'My Awesome application',
+        myPageHeader: 'Hello World',
+        template: './src/index.html',
+        filename: 'index.html'
     })
   ],
   mode: 'development'
