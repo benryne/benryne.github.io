@@ -1,9 +1,19 @@
 .site-navbar {
     width: 100%;
     background-color: bisque;
-    border: 10px fill white;
+    border: 10px solid white;
     color: black;
     .a {
+        color: black;
+    }
+}
+
+.navbar {
+    &-brand {
+        font-size: 3rem;
+
+    }
+    &-toggler {
         color: black;
     }
 }
