@@ -24,7 +24,12 @@
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "underscore.string":"^3.3.5",
+    "minimatch":"^3.0.2",
+    "marked":"^0.3.18",
+    "uglify-js":"^3.8.0",
+    "mustache":"^4.0.0"
   },
   "scripts": {
     "build": "webpack --config webpack.config.js"
