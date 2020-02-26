@@ -4,11 +4,11 @@
     &-section {
         background-color: lightslategrey;
         height: 100vh;
-        border: 10px solid black;
         color: black;
     }
     &-image {
-        border: 10px solid black;
+        border-top: 10px solid black;
+        border-bottom: 10px solid black;
         width: 100%;
         height: 30vh;
     }
