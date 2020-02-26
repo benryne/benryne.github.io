@@ -1,0 +1,21 @@
+@import 'vars.scss';
+
+.hero-section {
+    display: block;
+    height: 100vh;
+    
+    &-text {
+        text-align: center;
+        // margin: auto;
+        // vertical-align: middle;
+        color: $white;
+        @media (min-width:0px) and (max-width:667px) {
+            padding-top: 20vh;
+            font-size: 20vh;
+        }
+        @media (min-width:668px) {
+            padding-top: 35vh;
+            font-size: 20vh;
+        }
+    }
+}

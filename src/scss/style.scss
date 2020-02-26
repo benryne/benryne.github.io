@@ -1,7 +1,17 @@
-$dark-grey: #24272B;
-$light-grey: #596475;
-$cream: #FDE8E9;
-$light-pink: #E3BAC6;
-$light-purple: #BC9EC1;
 
 
+@import "~bootstrap/scss/bootstrap";
+@import 'experience.scss';
+@import 'header.scss';
+@import 'info.scss';
+@import 'footer.scss';
+@import 'hero.scss';
+@import 'skills.scss';
+@import 'projects.scss';
+@import 'nav.scss';
+@import 'about.scss';
+@import 'vars.scss';
+
+.container-fluid {
+    background-color: $dark-grey;
+}
