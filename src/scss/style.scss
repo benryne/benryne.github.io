@@ -13,5 +13,7 @@
 @import 'vars.scss';
 
 .container-fluid {
-    border: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
 }
