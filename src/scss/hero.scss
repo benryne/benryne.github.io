@@ -4,7 +4,6 @@
     &-section {
         background-color: #404040;
         color: black;
-        height: 100vh;
     }
     &-image {
         border: 10px solid black;
@@ -22,6 +21,7 @@
     }
     &-subtext {
         margin-top: 4rem;
+        margin-bottom: 4rem;
         margin-right: 20%;
         margin-left: 10%;
         font-size: 4rem;
