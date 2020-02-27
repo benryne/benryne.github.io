@@ -14,9 +14,11 @@
     &-button {
         font-size: 5rem;
         color: black;
+        background-color: #c46500;
         width: 100%;
         -webkit-appearance: none;
         border-radius: 0;
+        border: none;
         &-arrow {
             text-align: right;
         }
@@ -27,6 +29,9 @@
     &-row {
         background-color: #c46500;
         color: black;
+        &-header {
+            border: 10px solid black;
+        }
     }
     &-text {
         font-size: 3rem;
