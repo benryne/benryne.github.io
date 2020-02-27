@@ -8,9 +8,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 // Here you write different options and tell Webpack what to do
 module.exports = {
   entry: './src/app.js',
-  externals: {
-    jquery: 'jQuery'
-  },
   // Path and filename of your result bundle.
   // Webpack will bundle all JavaScript into this file
   output: {
