@@ -1,7 +1,6 @@
 @import 'vars.scss';
 
 .footer-section {
-    background-color: $white;
     padding-top: 50px;
     padding-bottom: 50px;
     border: 50px;
@@ -13,10 +12,6 @@
     }
     &-linkedin, &-github, &-email {
         font-size: 30px;
-        color: $cream;
-        &:hover {
-            font-size: 40px;
-        }
     }
 
 }
