@@ -1,18 +1,26 @@
 .skills {
     &-section {
-        background-color: #b34a00;
+        background-color: #ebae59;
         color: black;
+    }
+    &-container {
+        padding-left: 10%;
+        padding-right: 10%;
     }
     &-header {
         font-size: 5rem;
         padding: 10% 5rem;
     }
     &-button {
-        font-size: 3rem;
+        font-size: 5rem;
         color: black;
+        text-align: left;
     }
     &-row {
-        background-color: #b34a00;
+        background-color: #ebae59;
         color: black;
+    }
+    &-text {
+        font-size: 3rem;
     }
 }
