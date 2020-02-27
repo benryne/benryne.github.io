@@ -1,12 +1,14 @@
 @import 'vars.scss';
 
-.footer-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border: 50px;
-    background-color: #8a9a5b;
-    &-linkedin, &-github, &-email {
+.footer {
+    &-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #8a9a5b;
+    }
+    &-social, &-header {
         font-size: 3rem;
+        color: black;
     }
 
 }
