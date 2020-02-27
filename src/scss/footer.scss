@@ -4,11 +4,16 @@
     &-section {
         padding-top: 50px;
         padding-bottom: 50px;
+        padding-left: 10%;
+        padding-right: 10%;
         background-color: #8a9a5b;
-    }
-    &-social, &-header {
-        font-size: 3rem;
         color: black;
+    }
+    &-header {
+        font-size: 5rem;    
+    }   
+    &-social {
+        font-size: 3rem;
     }
 
 }
