@@ -5,13 +5,13 @@
     }
     &-header {
         font-size: 5rem;
-        margin: 10% 5rem;
+        padding: 10% 5rem;
+    }
+    &-button {
+        font-size: 3rem;
     }
     &-row {
         background-color: #b34a00;
         color: black;
-        &-header {
-            font-size: 3rem;
-        }
     }
 }
