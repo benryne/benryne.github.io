@@ -22,10 +22,12 @@
         border: none;
         &-arrow {
             font-size: 3rem;
-            text-align: center;
+            text-align: right;
             line-height: 7rem;
+            padding-right: 50px;
         }
         &-logo {
+            padding-left: 50px;
             text-align: left;
         }
     }
@@ -37,6 +39,8 @@
         }
     }
     &-text {
+        padding-right: 50px;
+        padding-left: 50px;
         border-left: 5px solid black;
         border-right: 5px solid black;
         font-size: 3rem;
