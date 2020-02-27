@@ -1,8 +1,7 @@
 import 'bootstrap';
 import './scss/style.scss'
+import $ from 'jquery';
 
-console.log(document.getElementsByClassName('name-header'));
-
-function nameClickFunction() {
-    console.log("My name is Jonas");
-};
+$( document ).ready(function() {
+    console.log( "ready!" );
+});

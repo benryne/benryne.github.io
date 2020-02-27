@@ -1,16 +1,16 @@
 // Webpack uses this to work with directories
 const path = require('path');
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 // const bootstrap = require('bootstrap');
 
 // This is main configuration object.
 // Here you write different options and tell Webpack what to do
 module.exports = {
-
-  // Path to your entry point. From this file Webpack will begin his work
   entry: './src/app.js',
-  
-
+  externals: {
+    jquery: 'jQuery'
+  },
   // Path and filename of your result bundle.
   // Webpack will bundle all JavaScript into this file
   output: {
@@ -21,7 +21,6 @@ module.exports = {
     rules: [
         {
           test: /\.js$/,
-          /* ... */
         },
         {
             test: /\.(scss)$/,
@@ -48,11 +47,16 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        hash: true,
-        title: 'My Awesome application',
-        myPageHeader: 'Hello World',
-        template: './src/index.html',
-        filename: 'index.html'
+      hash: true,
+      title: 'My Awesome application',
+      myPageHeader: 'Hello World',
+      template: './src/index.html',
+      filename: 'index.html'
+    }),
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+      "window.jQuery": "jquery"
     })
   ],
   mode: 'development'
