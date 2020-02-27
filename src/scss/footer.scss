@@ -4,14 +4,9 @@
     padding-top: 50px;
     padding-bottom: 50px;
     border: 50px;
-    border-color: white;
-    &-header {
-        font-size: 100px;
-        text-align: left;
-        color: $cream;
-    }
+    background-color: #8a9a5b;
     &-linkedin, &-github, &-email {
-        font-size: 30px;
+        font-size: 3rem;
     }
 
 }
