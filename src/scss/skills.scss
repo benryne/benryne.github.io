@@ -14,10 +14,15 @@
     &-button {
         font-size: 5rem;
         color: black;
-        text-align: left;
+        width: 100%;
+        &-arrow {
+            text-align: right;
+        }
+        &-logo {
+            text-align: left;
+        }
     }
     &-row {
-        width: 100%;
         background-color: #c46500;
         color: black;
     }
