@@ -18,8 +18,9 @@
         background-color: #c46500;
         width: 100%;
         -webkit-appearance: none;
-        border-radius: 0;
-        padding: 0;
+        border-radius: 0px;
+        padding: 0px;
+        display: block;
         border: none;
         &-arrow {
             font-size: 3rem;
