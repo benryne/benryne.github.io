@@ -8,11 +8,11 @@ $( document ).ready(function() {
     $('.collapse').collapse()
 
     $( ".skills-button" ).click(function() {
-        console.log($(this)[0].children[0].children[1]);
+        console.log($(this)[0].children[0].children[1].children[0]);
         console.log("clicked");
     });
 
-    $('.collapse').on('hidden.bs.collapse', function () {
+    $('#skillsAccordian').on('hidden.bs.collapse', function () {
         console.log("closed from accordian");
         last.toggleClass()
         console.log($(this));
