@@ -8,4 +8,9 @@ $( document ).ready(function() {
     $( ".skills-button" ).click(function() {
         console.log("clicked");
     });
+
+    $('#skillsAccordion').on('hidden.bs.collapse', function () {
+        console.log("closed from accordian");
+        console.log($(this));
+      })
 });
