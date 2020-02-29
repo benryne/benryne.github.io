@@ -12,7 +12,7 @@ $( document ).ready(function() {
         console.log("clicked");
     });
 
-    $('').on('hidden.bs.collapse', function () {
+    $('.collapse').on('hidden.bs.collapse', function () {
         console.log("closed from accordian");
         last.toggleClass()
         console.log($(this));
