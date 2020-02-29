@@ -8,15 +8,17 @@ $( document ).ready(function() {
     $('.collapse').collapse()
 
     $( ".skills-button" ).click(function() {
-        console.log($(this)[0].children[0].children[1].children[0]);
+        if(last) {
+            last.classList.remove("fa-rotate-180");
+        }
+        if(last && last == $(this)[0].children[0].children[1].children[0]) {
+            last = null;
+        }
+        else {
+            last = $(this)[0].children[0].children[1].children[0];
+            last.classList.add("fa-rotate-180");
+        }
         console.log("clicked");
     });
-
-    $('#skillsAccordian').on('hidden.bs.collapse', function () {
-        console.log("closed from accordian");
-        last.toggleClass()
-        console.log($(this));
-    })
-
 
 });
