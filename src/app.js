@@ -8,7 +8,7 @@ $( document ).ready(function() {
     $('.collapse').collapse()
 
     $( ".skills-button" ).click(function() {
-        console.log($(this));
+        console.log($(this)[0].children);
         console.log("clicked");
     });
 
