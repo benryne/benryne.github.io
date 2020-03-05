@@ -1,31 +1,32 @@
 @import 'vars.scss';
-
-.hero {
-    &-section {
-        background-color: #404040;
-        color: black;
-    }
-    &-image {
-        border: 10px solid black;
-        height: 40vh;
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-    &-name {
-        padding-top: 7rem;
-        padding-bottom: 7rem;
-        margin-left: 10%;
-        font-size: 7rem;
-        line-height: 7rem;
-        font-weight: 500;
-    }
-    &-subtext {
-        margin-top: 7rem;
-        margin-bottom: 7rem;
-        margin-right: 20%;
-        margin-left: 10%;
-        font-size: 4rem;
-        line-height: 4rem;
-        text-align: left;
+@include media-breakpoint-up(sm) {
+    .hero {
+        &-section {
+            background-color: #404040;
+            color: black;
+        }
+        &-image {
+            border: 10px solid black;
+            height: 40vh;
+            margin-right: 10%;
+            margin-left: 10%;
+        }
+        &-name {
+            padding-top: 7rem;
+            padding-bottom: 7rem;
+            margin-left: 10%;
+            font-size: 7rem;
+            line-height: 7rem;
+            font-weight: 500;
+        }
+        &-subtext {
+            margin-top: 7rem;
+            margin-bottom: 7rem;
+            margin-right: 20%;
+            margin-left: 10%;
+            font-size: 4rem;
+            line-height: 4rem;
+            text-align: left;
+        }
     }
 }

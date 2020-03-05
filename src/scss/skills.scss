@@ -1,50 +1,52 @@
-.skills {
-    &-section {
-        background-color: #c46500;
-        color: black;
-        padding-bottom: 10rem;
-    }
-    &-container {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-    &-header {
-        font-size: 5rem;
-        padding: 7rem 10%;
-    }
-    &-button {
-        font-size: 5rem;
-        color: black;
-        background-color: #c46500;
-        width: 100%;
-        -webkit-appearance: none;
-        border-radius: 0px;
-        padding: 0px;
-        display: block;
-        border: none;
-        &-arrow {
-            font-size: 3rem;
-            text-align: right;
-            line-height: 7rem;
-            padding-right: 50px;
+@include media-breakpoint-up(sm) {
+    .skills {
+        &-section {
+            background-color: #c46500;
+            color: black;
+            padding-bottom: 10rem;
         }
-        &-logo {
-            padding-left: 50px;
-            text-align: left;
+        &-container {
+            padding-left: 10%;
+            padding-right: 10%;
         }
-    }
-    &-row {
-        background-color: #c46500;
-        color: black;
         &-header {
-            border: 5px solid black;
+            font-size: 5rem;
+            padding: 7rem 10%;
         }
-    }
-    &-text {
-        padding-right: 50px;
-        padding-left: 50px;
-        border-left: 5px solid black;
-        border-right: 5px solid black;
-        font-size: 3rem;
+        &-button {
+            font-size: 5rem;
+            color: black;
+            background-color: #c46500;
+            width: 100%;
+            -webkit-appearance: none;
+            border-radius: 0px;
+            padding: 0px;
+            display: block;
+            border: none;
+            &-arrow {
+                font-size: 3rem;
+                text-align: right;
+                line-height: 7rem;
+                padding-right: 50px;
+            }
+            &-logo {
+                padding-left: 50px;
+                text-align: left;
+            }
+        }
+        &-row {
+            background-color: #c46500;
+            color: black;
+            &-header {
+                border: 5px solid black;
+            }
+        }
+        &-text {
+            padding-right: 50px;
+            padding-left: 50px;
+            border-left: 5px solid black;
+            border-right: 5px solid black;
+            font-size: 3rem;
+        }
     }
 }
