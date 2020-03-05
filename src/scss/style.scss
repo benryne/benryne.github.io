@@ -2,7 +2,6 @@
 
 @import "~bootstrap/scss/bootstrap";
 @import 'header.scss';
-@import 'info.scss';
 @import 'footer.scss';
 @import 'hero.scss';
 @import 'skills.scss';
@@ -11,9 +10,9 @@
 @import 'vars.scss';
 
 .container-fluid {
-    border-left: 10px solid black;
-    border-right: 10px solid black;
-    border-bottom: 10px solid black;
+    border-left: $border-style;
+    border-right: $border-style;
+    border-bottom: $border-style;
 }
 
 

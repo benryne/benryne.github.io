@@ -5,6 +5,7 @@ import $ from 'jquery';
 let last = null;
 
 $( document ).ready(function() {
+    $('.navbar-collapse').collapse() 
     $('.collapse').collapse()
 
     $( ".skills-button" ).click(function() {
