@@ -6,7 +6,7 @@ let last = null;
 
 $( document ).ready(function() {
     $('.navbar-collapse').collapse() 
-    $('.collapse').collapse()
+    $('.collapse').collapse('hide')
 
     $( ".skills-button" ).click(function() {
         if(last) {
