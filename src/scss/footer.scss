@@ -1,6 +1,6 @@
 @import 'vars.scss';
 
-@include media-breakpoint-up(sm) {
+// @include media-breakpoint-up(sm) {
     .footer {
         &-section {
             padding-top: 50px;
@@ -25,4 +25,4 @@
             font-size: 3rem;
         }
     }
-}
+// }

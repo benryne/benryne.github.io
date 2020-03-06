@@ -1,6 +1,6 @@
 @import 'vars.scss';
 
-@include media-breakpoint-up(sm) {
+// @include media-breakpoint-up(sm) {
     .hero {
         &-section {
             background-color: #404040;
@@ -30,4 +30,4 @@
             text-align: left;
         }
     }
-}
+// }
