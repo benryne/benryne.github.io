@@ -1,20 +1,21 @@
+@import 'vars.scss';
 // @include media-breakpoint-up(sm) {
     .skills {
         &-section {
             background-color: #c46500;
             color: black;
-            padding-bottom: 10rem;
+            padding-bottom: 4rem;
         }
         &-container {
             padding-left: 10%;
             padding-right: 10%;
         }
         &-header {
-            font-size: 5rem;
-            padding: 7rem 10%;
+            font-size: 3rem;
+            padding: 4rem 10%;
         }
         &-button {
-            font-size: 5rem;
+            font-size: 1.5rem;
             color: black;
             background-color: #c46500;
             width: 100%;
@@ -24,13 +25,13 @@
             display: block;
             border: none;
             &-arrow {
-                font-size: 3rem;
+                font-size: 1.5rem;
                 text-align: right;
-                line-height: 7rem;
-                padding-right: 50px;
+                // line-height: 1.5rem;
+                // padding-right: 50px;
             }
             &-logo {
-                padding-left: 50px;
+                padding-left: 40px;
                 text-align: left;
             }
         }
@@ -38,15 +39,15 @@
             background-color: #c46500;
             color: black;
             &-header {
-                border: 5px solid black;
+                border: $border-style;
             }
         }
         &-text {
             padding-right: 50px;
             padding-left: 50px;
-            border-left: 5px solid black;
-            border-right: 5px solid black;
-            font-size: 3rem;
+            border-left: $border-style;
+            border-right: $border-style;
+            font-size: 1rem;
         }
     }
 // }

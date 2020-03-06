@@ -8,26 +8,27 @@
         }
         &-image {
             border: $border-style;
-            height: 40vh;
+            height: 35vh;
             margin-right: 10%;
             margin-left: 10%;
+            margin-bottom: 4rem;
         }
         &-name {
-            padding-top: 7rem;
-            padding-bottom: 7rem;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
             margin-left: 10%;
-            font-size: 7rem;
-            line-height: 7rem;
+            font-size: 3rem;
+            line-height: 3rem;
             font-weight: 500;
         }
         &-subtext {
-            margin-top: 7rem;
-            margin-bottom: 7rem;
+            // margin-top: 3rem;
+            margin-bottom: 4rem;
             margin-right: 20%;
             margin-left: 10%;
-            font-size: 4rem;
-            line-height: 4rem;
-            text-align: left;
+            font-size: 1.5rem;
+            line-height: 2rem;
+            // text-align: left;
         }
     }
 // }

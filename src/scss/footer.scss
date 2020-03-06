@@ -3,26 +3,22 @@
 // @include media-breakpoint-up(sm) {
     .footer {
         &-section {
-            padding-top: 50px;
-            padding-bottom: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
             padding-left: 10%;
             padding-right: 10%;
             background-color: $green;
             color: black;
-        }
-        &-header {
-            font-size: 5rem;    
-            margin-bottom: 3rem;
-        }   
+        } 
         &-social {
-            font-size: 3rem;
+            font-size: 1.25rem;
             a {
                 color: black;
             }
         }
         &-copyright {
             text-align: right;
-            font-size: 3rem;
+            font-size: 1.25rem;
         }
     }
 // }
