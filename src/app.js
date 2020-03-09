@@ -5,8 +5,13 @@ import $ from 'jquery';
 let last = null;
 
 $( document ).ready(function() {
-    $('.navbar-collapse').collapse() 
+    $('.navbar-collapse').collapse('hide') 
     $('.collapse').collapse('hide')
+
+    $('.nav-link').click(function() {
+        console.log("CLICKED NAV")
+        $('.navbar-collapse').collapse('hide')
+    });
 
     $( ".skills-button" ).click(function() {
         if(last) {

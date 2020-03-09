@@ -3,30 +3,31 @@
 // @include media-breakpoint-up(sm) {
     .hero {
         &-section {
-            background-color: #404040;
+            background-color: $grey;
             color: black;
         }
         &-image {
             border: $border-style;
             height: 35vh;
-            margin-right: 10%;
-            margin-left: 10%;
-            margin-bottom: 4rem;
+            margin-right: 5%;
+            margin-left: 5%;
+            margin-bottom: 5rem;
         }
         &-name {
             padding-top: 4rem;
             padding-bottom: 4rem;
-            margin-left: 10%;
+            margin-left: 5%;
             font-size: 3rem;
             line-height: 3rem;
             font-weight: 500;
+            
         }
         &-subtext {
             // margin-top: 3rem;
             margin-bottom: 4rem;
-            margin-right: 20%;
-            margin-left: 10%;
-            font-size: 1.5rem;
+            margin-right: 5%;
+            margin-left: 5%;
+            font-size: 1.25rem;
             line-height: 2rem;
             // text-align: left;
         }
