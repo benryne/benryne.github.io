@@ -2,38 +2,39 @@
     width: 100%;
     position: relative;
     background: url('../../white-waves.png') repeat; 
-    height: 40rem;
+    height: 640px;
     &-header {
         border: black 0.5px solid;
         background-color: white;
-        height: 5rem;
-        width: 50rem;
-        font-size: 3rem;
+        height: 80px;
+        width: 800px;
+        font-size: 48px;
         position: absolute;
-        left: 10rem;
-        padding-left: 1rem;
-        line-height: 5rem;
+        left: 160px;
+        padding-left: 16px;
+        line-height: 80px;
     }
     &-subtext {
         border: black 0.5px solid;
         background-color: white;
-        width: 50rem;
-        font-size: 1rem;
-        height: 12rem;
+        width: 800px;
+        font-size: 16px;
+        height: 192px;
         position: absolute;
-        left: 10rem;
-        top: 8rem;
-        padding: 3.5rem 1rem;
+        left: 160px;
+        top: 128px;
+        padding-left: 16px;
+        padding-top: 32px;
     }
     &-image {
         &-container {
             border: black 0.5px solid;
             background-color: white;
-            width: 20rem;
-            height: 20rem;
-            right: 10rem;
+            width: 320px;
+            height: 320px;
+            right: 160px;
             position: absolute;
-            padding: 1rem;
+            padding: 16px;
         }   
         border: black 0.5px solid;
         width: 100%;
