@@ -1,35 +1,36 @@
 @import 'vars.scss';
 
-// @include media-breakpoint-up(sm) {
-    .hero {
-        &-section {
-            background-color: $grey;
-            color: black;
-        }
-        &-image {
-            border: $border-style;
-            height: 35vh;
-            margin-right: 5%;
-            margin-left: 5%;
-            margin-bottom: 5rem;
-        }
-        &-name {
-            padding-top: 4rem;
-            padding-bottom: 4rem;
-            margin-left: 5%;
-            font-size: 3rem;
-            line-height: 3rem;
-            font-weight: 500;
-            
-        }
-        &-subtext {
-            // margin-top: 3rem;
-            margin-bottom: 4rem;
-            margin-right: 5%;
-            margin-left: 5%;
-            font-size: 1.25rem;
-            line-height: 2rem;
-            // text-align: left;
-        }
+.hero {
+    background: url('../../white-waves.png') repeat; 
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    &-header{
+        border: black 0.5px solid;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        height: 5rem;
+        width: 25rem;
+        background-color: white;
+        font-size: 3rem;
+        text-align: center;
+        margin-left: -12.5rem;
+        margin-top: -2.5rem;
+        line-height: 5rem;
     }
-// }
+    &-subtext {
+        border: black 0.5px solid;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        height: 5rem;
+        width: 40rem;
+        background-color: white;
+        font-size: 3rem;
+        text-align: center;
+        margin-left: -20rem;
+        margin-top: -2.5rem;
+        line-height: 5rem;
+    }
+}

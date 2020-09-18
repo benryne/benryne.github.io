@@ -1,30 +1,6 @@
 import 'bootstrap';
 import './scss/style.scss'
-import $ from 'jquery';
+import AOS from 'aos';
 
-let last = null;
-
-$( document ).ready(function() {
-    $('.navbar-collapse').collapse('hide') 
-    $('.collapse').collapse('hide')
-
-    $('.nav-link').click(function() {
-        console.log("CLICKED NAV")
-        $('.navbar-collapse').collapse('hide')
-    });
-
-    $( ".skills-button" ).click(function() {
-        if(last) {
-            last.classList.remove("fa-rotate-180");
-        }
-        if(last && last == $(this)[0].children[0].children[1].children[0]) {
-            last = null;
-        }
-        else {
-            last = $(this)[0].children[0].children[1].children[0];
-            last.classList.add("fa-rotate-180");
-        }
-        console.log("clicked");
-    });
-
-});
+AOS.init();
+setTimeout(() => {AOS.refresh();}, 500);

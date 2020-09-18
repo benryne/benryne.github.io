@@ -1,13 +1,8 @@
-
-
-@import "~bootstrap/scss/bootstrap";
-@import 'header.scss';
-@import 'footer.scss';
 @import 'hero.scss';
-@import 'skills.scss';
 @import 'projects.scss';
-@import 'nav.scss';
 @import 'vars.scss';
+@import 'about.scss';
+@import '~aos/src/sass/aos.scss';
 
 .container-fluid {
     border-left: $border-style;
@@ -21,5 +16,7 @@
 // }
 
 body {
-    font-family: 'Major Mono Display', monospace;
+    background: url('../../white-waves.png') repeat; 
+    font-family: 'Cousine', monospace;
+    overflow-x: hidden;
 }

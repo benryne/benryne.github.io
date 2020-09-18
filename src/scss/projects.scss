@@ -1,0 +1,39 @@
+.projects {
+    width: 100%;
+    background: url('../../white-waves.png') repeat; 
+    // height: 500px;
+    &-header {
+        border: black 0.5px solid;
+        background-color: white;
+        height: 5rem;
+        width: 50rem;
+        font-size: 3rem;
+        float: right;
+        padding-right: 1rem;
+        margin-right: 10rem;
+        line-height: 5rem;
+        text-align: right;
+    }
+    &-project {
+        border: black 0.5px solid;
+        background-color: white;
+        margin-right: 10rem;
+        margin-top: 5rem;
+        height: 15rem;
+        width: 50rem;
+        float: right;
+    }
+    &-title {
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 2rem;
+        text-align: right;
+        padding-right: 1rem;
+    }
+    &-description {
+        height: 10rem;
+        text-align: right;
+        padding-left: 40%;
+        padding-right: 1rem;
+    }
+}

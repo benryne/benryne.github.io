@@ -2,198 +2,51 @@
 <html>
     <head>
         <script src="https://kit.fontawesome.com/332861912e.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Krub|Major+Mono+Display&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cousine&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     </head>
     <body>
-        <nav class="navbar navbar-expand-md site-navbar">
-            <a class="navbar-brand" href="https://benryne.github.io"><i class="fas fa-globe-africa"></i></a>
-            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="#about">About </a>
-                    <a class="nav-item nav-link" href="#skills">Skills</a>
-                    <a class="nav-item nav-link" href="#skills">Connect</a>
-                </div>
+        <div class="hero">
+            <div class="hero-header" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+                Ben Ryne
             </div>
-        </nav>
-        <div class="hero-section container-fluid">
-            <div class="d-none d-md-flex row">
-                <div class="col-6">
-                    <div class="hero-name">Ben Ryne</div>
-                    <div class="hero-subtext">
-                        <p>Software developer building cool things.<br/>
-                            Ask me about coffee, beer, and music!</p>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="hero-image">   
-                        <img src="gardens.jpg" style="width: 100%; height: 100%;">
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex d-md-none hero-name">Ben Ryne</div>
-            <div class="d-flex d-md-none hero-subtext">
-                    <p>Software developer building cool things.<br/>
-                        Ask me about coffee, beer, and music!</p>
-            </div>
-            <div class="d-flex d-md-none hero-image">   
-                <img src="gardens.jpg" style="width: 100%; height: 100%;">
+            <div class='hero-subtext' data-aos="fade-up" data-aos-once="true" data-aos-delay="1000" data-aos-duration="1000">
+                Software Developer
             </div>
         </div>
-        <a id="skills"></a>
-        <div class="skills-section container-fluid">
-            <div class="skills-header">Skills</div>
-            <div class="skills-container"> 
-                <div class="accordion" id="skillsAccordion">
-                    <div class="card skills-row">
-                        <div class="skills-row-header" id="headingOne">
-                                <button class="skills-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <div class="row">
-                                        <div class="col-8 skills-button-label">
-                                            Back-end development
-                                        </div>
-                                        <div class="col-4 skills-button-arrow">
-                                            <i class="fas fa-chevron-down"></i>
-                                        </div>
-                                    </div>
-                                </button>
-                        </div>
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#skillsAccordion">
-                            <div class="card-body skills-card">
-                                <div class="skills-card-logo">
-                                    <i class="fab fa-java"></i>
-                                </div>
-                                <div class="skills-card-logo">
-                                    <i class="fab fa-python"></i>
-                                </div>
-                                <div class="skills-card-logo">
-                                    C++
-                                </div>
-                                <div class="skills-card-text">
-                                    Built back-end systems using Java and Java-Spring for the Product Selections Team at Amazon. 
-                                    Created a Google search engine and many other algortithms projects in C/C++. Written Python 
-                                    Scripts for multiple back-end systems.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card skills-row">
-                        <div class="skills-row-header" id="headingTwo">
-                            <button class="skills-button" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                <div class="row">
-                                    <div class="col-8 skills-button-label">
-                                        Front-end development
-                                    </div>
-                                    <div class="col-4 skills-button-arrow">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                            </button>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#skillsAccordion">
-                                <div class="card-body skills-card">
-                                    <div class="skills-card-logo">
-                                        <i class="fab fa-html5"></i>
-                                    </div>
-                                    <div class="skills-card-logo">
-                                        <i class="fab fa-sass"></i>
-                                    </div>
-                                    <div class="skills-card-logo">
-                                        <i class="fab fa-js"></i>
-                                    </div>
-                                    <div class="skills-card-logo">
-                                        <i class="fab fa-react"></i>
-                                    </div>
-                                    <div class="skills-card-logo">
-                                        <i class="fab fa-vuejs"></i>
-                                    </div>
-                                    <div class="skills-card-text">
-                                        Developed the front end of a large-scale multisite for renting buildings
-                                        using HTML, SASS and javascript. Worked on features for multiple websites
-                                        in Vue.js. Working on learning REACT in my free time, I have completed small
-                                        projects.
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="card skills-row">
-                        <div class="skills-row-header" id="headingThree">
-                            <button class="skills-button" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                <div class="row">
-                                    <div class="col-8 skills-button-label">
-                                        Architecture Building
-                                    </div>
-                                    <div class="col-4 skills-button-arrow">
-                                        <i class="fas fa-chevron-down"></i>
-                                    </div>
-                                </div>
-                            </button>
-                        </div>  
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#skillsAccordion">
-                                <div class="card-body skills-card">
-                                        <div class="skills-card-logo">
-                                            <i class="fab fa-aws"></i>
-                                        </div>
-                                        <div class="skills-card-logo">
-                                            <i class="fab fa-linux"></i>
-                                        </div>
-                                        <div class="skills-card-logo">
-                                            <i class="fab fa-python"></i>
-                                        </div>
-                                        <div class="skills-card-text">
-                                            Built large auto-scaling architectures with cloudformation and AWS.
-                                            Written python scripts and functions to deploy code and get dynamically
-                                            create and allocate servers.
-                                        </div>
-                                    </div>
-                        </div>
-                    </div>
+        <div class="about">
+            <div class="about-header" data-aos="fade-right">
+                About Me
+            </div>
+            <div class="about-subtext" data-aos="fade-right">
+                I am a Software Developer based in Chicago IL trying to learn as much as I can. Before that I spent 4 years
+                at Clemson University obtaining a B.S. in Computer Science. Feel free to reach out to talk about software, tech,
+                or coffee.
+            </div>
+            <div class="about-image-container" data-aos="fade-left"> 
+                <img src="./ben_gg.jpg" class="about-image"></img>
+            </div>
+        </div>
+        <div class="projects">
+            <div class="projects-header" data-aos="fade-left">
+                Projects
+            </div>
+            <div class="projects-project" data-aos="fade-left">
+                <div class="projects-title">
+                    Anime/Manga Discord Bot
+                </div>
+                <div class="projects-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna mauris, varius id nibh id, auctor vehicula turpis. Nulla facilisi. Ut et lacus feugiat, fermentum felis dignissim, gravida metus.
+                </div>
+            </div>
+            <div class="projects-project" data-aos="fade-left">
+                <div class="projects-title">
+                    Home tool finder
+                </div>
+                <div class="projects-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna mauris, varius id nibh id, auctor vehicula turpis. Nulla facilisi. Ut et lacus feugiat, fermentum felis dignissim, gravida metus.
                 </div>
             </div>
         </div>
-        <a id="contact"></a>
-        <div class="container-fluid footer-section"> 
-            <div class="row">
-                <div class="col-2">
-                    <div class="footer-social">
-                        <a href="https://www.linkedin.com/in/benjaminryne/" target="_blank">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class=footer-social>
-                        <a href="https://github.com/benryne" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="footer-social">
-                        <a href="mailto: benji.ryne@gmail.com">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="footer-social">
-                        <a href="resume.pdf">
-                            <i class="far fa-file"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-4 footer-copyright">
-                    <i class="far fa-copyright"></i>
-                    2020
-                </div>
-            </div>
-        </div>
-
-
-
-        </div>
-    <script type="text/javascript" src="app.js?165cf29ffee82c1af666"></script></body>
+    <script type="text/javascript" src="app.js?f87a9daa79ac33a99344"></script></body>
 </html>
