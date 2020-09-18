@@ -33,4 +33,20 @@
         margin-top: -40px;
         line-height: 80px;
     }
+    &-scroll {
+        left: 50%;
+        bottom: 2.5%;
+        font-size: 48px;
+        margin-left: -25px;
+        position: absolute;
+        animation-name: bounce;
+        animation-duration: 2.5s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {transform: translateY(0);}
+    50% {transform: translateY(30px);}
 }

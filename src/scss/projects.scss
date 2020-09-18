@@ -1,7 +1,7 @@
 .projects {
     width: 100%;
     background: url('../../white-waves.png') repeat; 
-    // height: 500px;
+    margin-bottom: 80px;
     &-header {
         border: black 0.5px solid;
         background-color: white;
@@ -21,7 +21,7 @@
         margin-top: 80px;
         height: 240px;
         width: 800px;
-        float: right;
+        float: right;         
         padding-right: 16px;
     }
     &-title {
@@ -32,9 +32,24 @@
         // padding-right: 16px;
     }
     &-description {
-        height: 160px;
+        height: 128px;
         text-align: right;
         padding-left: 160px;
-        // padding-right: 16px;
+        padding-top: 16px;
     }
+    &-link {
+        height: 32px;
+        text-align: right;
+    }
+    &-link:hover {
+        animation-name: 'side-bounce';
+        animation-duration: 2.5s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes side-bounce {
+    0%, 100% {transform: translateX(0);}
+    50% {transform: translateX(-5px);}
 }
