@@ -2,18 +2,8 @@
 @import 'projects.scss';
 @import 'vars.scss';
 @import 'about.scss';
+@import 'contact.scss';
 @import '~aos/src/sass/aos.scss';
-
-.container-fluid {
-    border-left: $border-style;
-    border-right: $border-style;
-    border-bottom: $border-style;
-}
-
-// .dark-color {
-//     color: $green;
-//     background-color: black;
-// }
 
 body {
     background: url('../../white-waves.png') repeat; 
