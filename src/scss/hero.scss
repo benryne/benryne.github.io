@@ -1,49 +1,99 @@
 @import 'vars.scss';
 
-.hero {
-    background: url('../../white-waves.png') repeat; 
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    &-header{
-        border: black 0.5px solid;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        height: 80px;
-        width: 400px;
-        background-color: white;
-        font-size: 48px;
-        text-align: center;
-        margin-left: -200px;
-        margin-top: -40px;
-        line-height: 80px;
+@media only screen and (max-width: 600px) {
+    .hero {
+        background: url('../../white-waves.png') repeat; 
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        &-header{
+            border: black 0.5px solid;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            height: 72px;
+            width: 200px;
+            background-color: white;
+            font-size: 32px;
+            text-align: center;
+            margin-left: -100px;
+            margin-top: -36px;
+            line-height: 72px;
+        }
+        &-subtext {
+            border: black 0.5px solid;
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            height: 72px;
+            width: 350px;
+            background-color: white;
+            font-size: 28px;
+            text-align: center;
+            margin-left: -175px;
+            margin-top: -36px;
+            line-height: 72px;
+        }
+        &-scroll {
+            left: 50%;
+            bottom: 2.5%;
+            font-size: 48px;
+            margin-left: -25px;
+            position: absolute;
+            animation-name: bounce;
+            animation-duration: 2.5s;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+        }
     }
-    &-subtext {
-        border: black 0.5px solid;
-        position: absolute;
-        top: 55%;
-        left: 50%;
-        height: 80px;
-        width: 640px;
-        background-color: white;
-        font-size: 48px;
-        text-align: center;
-        margin-left: -320px;
-        margin-top: -40px;
-        line-height: 80px;
-    }
-    &-scroll {
-        left: 50%;
-        bottom: 2.5%;
-        font-size: 48px;
-        margin-left: -25px;
-        position: absolute;
-        animation-name: bounce;
-        animation-duration: 2.5s;
-        animation-fill-mode: both;
-        animation-iteration-count: infinite;
-    }
+}
+
+@media (min-width: 600px) {
+    .hero {
+        background: url('../../white-waves.png') repeat; 
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        &-header{
+            border: black 0.5px solid;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            height: 80px;
+            width: 400px;
+            background-color: white;
+            font-size: 48px;
+            text-align: center;
+            margin-left: -200px;
+            margin-top: -40px;
+            line-height: 80px;
+        }
+        &-subtext {
+            border: black 0.5px solid;
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            height: 80px;
+            width: 640px;
+            background-color: white;
+            font-size: 48px;
+            text-align: center;
+            margin-left: -320px;
+            margin-top: -40px;
+            line-height: 80px;
+        }
+        &-scroll {
+            left: 50%;
+            bottom: 2.5%;
+            font-size: 48px;
+            margin-left: -25px;
+            position: absolute;
+            animation-name: bounce;
+            animation-duration: 2.5s;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+        }
+    }    
 }
 
 @keyframes bounce {

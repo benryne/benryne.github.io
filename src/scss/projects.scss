@@ -1,52 +1,97 @@
-.projects {
-    width: 100%;
-    background: url('../../white-waves.png') repeat; 
-    margin-bottom: 80px;
-    height: 800px;
-    &-header {
-        border: black 0.5px solid;
-        background-color: white;
-        height: 80px;
-        width: 800px;
-        font-size: 48px;
-        float: right;
-        padding-right: 16px;
-        margin-right: 160px;
-        line-height: 80px;
-        text-align: right;
+
+@media only screen and (max-width: 600px) {
+    .projects {
+        width: 100%;
+        background: url('../../white-waves.png') repeat; 
+        margin-top: 64px;
+        padding: 5%;
+        &-header {
+            border: black 0.5px solid;
+            background-color: white;
+            height: 80px;
+            width: calc( 90vw - 32px );
+            font-size: 48px;
+            padding-left: 16px;
+            padding-right: 16px;
+            line-height: 80px;
+        }
+        &-project {
+            border: black 0.5px solid;
+            background-color: white;
+            margin-top: 32px;
+            // height: 240px;
+            width: calc( 90vw - 32px );
+            padding-right: 16px;
+            padding-left: 16px;
+        }
+        &-title {
+            font-size: 30px;
+            text-align: right;
+            padding-top: 16px;
+        }
+        &-description {
+            text-align: right;
+            padding-top: 16px;
+        }
+        &-link {
+            padding-top: 16px;
+            padding-bottom: 16px;
+            text-align: right;
+        }
     }
-    &-project {
-        border: black 0.5px solid;
-        background-color: white;
-        margin-right: 160px;
-        margin-top: 80px;
-        height: 240px;
-        width: 800px;
-        float: right;         
-        padding-right: 16px;
-    }
-    &-title {
-        height: 64px;
-        line-height: 64px;
-        font-size: 32px;
-        text-align: right;
-        // padding-right: 16px;
-    }
-    &-description {
-        height: 128px;
-        text-align: right;
-        padding-left: 160px;
-        padding-top: 16px;
-    }
-    &-link {
-        height: 32px;
-        text-align: right;
-    }
-    &-link:hover {
-        animation-name: 'side-bounce';
-        animation-duration: 2.5s;
-        animation-fill-mode: both;
-        animation-iteration-count: infinite;
+}
+
+@media (min-width: 601px) {
+    .projects {
+        width: 100%;
+        background: url('../../white-waves.png') repeat; 
+        margin-bottom: 80px;
+        height: 800px;
+        &-header {
+            border: black 0.5px solid;
+            background-color: white;
+            height: 80px;
+            width: 800px;
+            font-size: 48px;
+            float: right;
+            padding-right: 16px;
+            margin-right: 160px;
+            line-height: 80px;
+            text-align: right;
+        }
+        &-project {
+            border: black 0.5px solid;
+            background-color: white;
+            margin-right: 160px;
+            margin-top: 80px;
+            height: 240px;
+            width: 800px;
+            float: right;         
+            padding-right: 16px;
+        }
+        &-title {
+            height: 64px;
+            line-height: 64px;
+            font-size: 32px;
+            text-align: right;
+            // padding-right: 16px;
+        }
+        &-description {
+            height: 128px;
+            text-align: right;
+            padding-left: 160px;
+            padding-top: 16px;
+        }
+        &-link {
+            height: 32px;
+            text-align: right;
+        }
+        &-link:hover {
+            animation-name: 'side-bounce';
+            animation-duration: 2.5s;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+        }
     }
 }
 
