@@ -8,12 +8,13 @@
         &-header {
             border: black 0.5px solid;
             background-color: white;
-            height: 80px;
+            height: 64px;
             width: calc( 90vw - 32px );
-            font-size: 48px;
+            font-size: 32px;
             padding-left: 16px;
             padding-right: 16px;
-            line-height: 80px;
+            line-height: 64px;
+            text-align: right;
         }
         &-project {
             border: black 0.5px solid;
